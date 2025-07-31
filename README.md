@@ -8,7 +8,7 @@ It showcases my:
 - Projects with links
 - Contact info and social icons (LinkedIn, GitHub)
 
-> 📌 Live demo: [akash-portfolio.vercel.app](https://akash-portfolio.vercel.app)
+> 📌 Live demo: https://akash-portfolio-cyan-three.vercel.app/
 
 ---
 

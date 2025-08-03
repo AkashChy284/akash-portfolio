@@ -3,16 +3,14 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 import Header from "./components/Header";
+import Hero from "./components/Hero";
 import About from "./components/About";
+import Skills from "./components/Skills";
 import Projects from "./components/Projects";
+import Certificates from "./components/Certificates";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import BackToTop from "./components/BackToTop"; // make sure this file exists
-import Certificates from "./components/Certificates";
-import Hero from "./components/Hero";
-import Skills from "./components/Skills";
-
-
+import BackToTop from "./components/BackToTop"; // make sure this exists
 
 function App() {
   useEffect(() => {
@@ -20,17 +18,18 @@ function App() {
   }, []);
 
   return (
-    <div className="bg-gradient-to-b from-white to-gray-100">
+    <div className="bg-[#0f0f1a] text-gray-200 font-poppins">
       <Header />
-      <Hero />         {/* New Hero section right after header */}
-      <About />
-      <Skills />       {/* New Skills section after about */}
-      <Projects />
-      <Certificates />
-      <Contact />
+      <Hero />
+      <main className="max-w-6xl mx-auto px-4">
+        <About />
+        <Skills />
+        <Projects />
+        <Certificates />
+        <Contact />
+      </main>
       <Footer />
       <BackToTop />
-
     </div>
   );
 }

@@ -2,9 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Smooth scrolling */
 html {
   scroll-behavior: smooth;
 }
+
+/* Global body styling */
 body {
-  font-family: 'Inter', sans-serif;
+  @apply bg-[#0f0f1a] text-gray-200 font-poppins;
+}
+
+/* Headings white */
+h1, h2, h3, h4, h5, h6 {
+  @apply text-white;
+}
+
+/* Links purple hover */
+a {
+  @apply text-purple-400 transition-colors;
+}
+a:hover {
+  @apply text-purple-300;
 }

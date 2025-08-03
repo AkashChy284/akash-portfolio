@@ -20,7 +20,8 @@ export default function BackToTop() {
     showButton && (
       <button
         onClick={scrollToTop}
-        className="fixed bottom-6 right-6 p-3 bg-blue-600 text-white rounded-full shadow-md hover:bg-blue-700"
+        className="fixed bottom-6 right-6 p-3 bg-purple-500 text-white rounded-full 
+                 shadow-md hover:bg-purple-600 transition-all duration-300 ease-in-out"
       >
         <FaArrowUp />
       </button>

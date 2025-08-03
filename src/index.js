@@ -1,3 +1,7 @@
+import "@fontsource/inter";
+import "./index.css"; // keep Tailwind import here
+
+
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';

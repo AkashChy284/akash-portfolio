@@ -76,7 +76,7 @@ export default function Hero() {
           <img
             src={myPhoto}
             alt="Akash Choudhary"
-            className="relative w-48 h-48 md:w-56 md:h-56 rounded-full border-2 border-purple-500 object-cover shadow-lg"
+            className="relative w-80 h-80 md:w-80 md:h-80 rounded-full border-2 border-purple-500 object-cover shadow-lg"
           />
         </div>
       </div>
